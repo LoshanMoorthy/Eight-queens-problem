@@ -1,16 +1,16 @@
+package Queens;
+
 /**
- * @author Loshan Sundaramoorthy og Søren Fals Vind
+ * @author Loshan Sundaramoorthy
  * @version 1.0
  */
 
 public class Solver {
 
-
     private int noOfQueens;
     private int[] queens;
     private int noOfSolutions;
     private boolean showSolutions = true;
-
 
     public static void main(String[] args) {
         testSolver();
